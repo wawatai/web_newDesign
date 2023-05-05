@@ -1,0 +1,67 @@
+footer {
+    width: 100%;
+    min-width: 1000px;
+    height: 260px;
+    background: $mainColor;
+    z-index: 999;
+
+    nav {
+        width: 95%;
+        height: auto;
+        margin: 0 auto;
+        border-bottom: 2px solid $subColor;
+
+        ul {
+            width: 100%;
+            height: 67px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                width: auto;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                background: transparent;
+                border-radius: 50px;
+                white-space: nowrap;
+                padding: 0 17px;
+                margin-right: 5%;
+                transition: 0.3s;
+                cursor: pointer;
+
+                p {
+                    color: $mainFONT;
+                    font-size: 18px;
+                    white-space: nowrap;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &:hover,&:active,&.active {
+                    background: $navHOV_bg;
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+
+    .aboutCopany {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+
+        p {
+            color: $mainFONT;
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 40px;
+            text-align: center;
+            margin: 48px auto;
+        }
+    }
+}

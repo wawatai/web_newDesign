@@ -1,0 +1,2184 @@
+@charset "UTF-8";
+header .deco .ac_ic {
+  background: url(../img/icon/user.png) no-repeat center;
+  background-size: 100%;
+}
+
+header .deco .pw_ic {
+  background: url(../img/icon/pw.png) no-repeat center;
+  background-size: 100%;
+}
+
+header .fgPW {
+  background: url(../img/icon/help.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .gameType .gameBlock .brandBtn .dg {
+  background: url(../img/icon/dg_logo.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .gameType .gameBlock .brandBtn .sa {
+  background: url(../img/icon/sa_logo.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .gameType .gameBlock .brandBtn .og {
+  background: url(../img/icon/og_logo.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .gameType .gameBlock .brandBtn .ab {
+  background: url(../img/icon/ab_logo.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .gameType .gameBlock .brandBtn .wm {
+  background: url(../img/icon/wm_logo.png) no-repeat center;
+  background-size: 102%;
+}
+
+.mainWrap .bet .teamName .teamBox .logo .md {
+  background: url(../img/icon/md_logo.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .bet .teamName .teamBox .logo .ba {
+  background: url(../img/icon/bas_logo.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .appAD .content .mainObj {
+  background: url(../img/appAD/main.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .appAD .content .mainObjLight {
+  background: url(../img/appAD/main_LIGHT.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .appAD .content .coinAll {
+  background: url(../img/appAD/coin.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .appAD .content .light01 {
+  background: url(../img/appAD/light01.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .appAD .content .light02 {
+  background: url(../img/appAD/light02.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .introduce .payWayy {
+  background: url(../img/payWay.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .textBox .iconArea.live {
+  background: url(../img/icon/live_icon.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .textBox .iconArea.sport {
+  background: url(../img/icon/sport_icon.png) no-repeat center;
+  background-size: 88%;
+}
+
+.mainWrap .textBox .iconArea.slot {
+  background: url(../img/icon/slot_icon.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .textBox .iconArea.local {
+  background: url(../img/icon/global_icon.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .textBox .iconArea.product {
+  background: url(../img/icon/slot_icon.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mainWrap .textBox .iconArea.ui {
+  background: url(../img/icon/ui_icon.png) no-repeat center;
+  background-size: 100%;
+}
+
+.mq .mqTitle .mqIC {
+  background: url(../img/icon/mq_ic.png) no-repeat center;
+  background-size: 100%;
+}
+
+.bg {
+  background: url(../img/BG.png) no-repeat top center;
+  background-size: 100%;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "微軟正黑體";
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: "微軟正黑體";
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0px;
+  font-family: "微軟正黑體";
+}
+
+select, input {
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "微軟正黑體";
+}
+
+main {
+  display: block;
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  width: 100%;
+  min-width: 1000px;
+  height: 100%;
+  position: relative;
+}
+html body {
+  width: auto;
+  height: 100%;
+  position: relative;
+}
+html body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+html body::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, left top, right top, from(#a1ea22), to(#34da14));
+  background: linear-gradient(to right, #a1ea22 0%, #34da14 100%);
+  border-radius: 15px;
+}
+html body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.8274509804);
+}
+html body::-webkit-scrollbar {
+  width: 0;
+}
+html body .bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+html body .bg span {
+  background: -webkit-gradient(linear, left top, right top, from(#ffb21d), to(#fb890e));
+  background: linear-gradient(to right, #ffb21d 0%, #fb890e 100%);
+  border-radius: 200px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  z-index: -800;
+}
+html body .bg span.right {
+  left: unset;
+  right: 100px;
+}
+html body .bg span.right.bigCircle {
+  -webkit-animation: bfly 8s 2s linear infinite;
+          animation: bfly 8s 2s linear infinite;
+}
+html body .bg span.bigCircle {
+  width: 200px;
+  height: 200px;
+  -webkit-animation: bfly 8s 5s linear infinite;
+          animation: bfly 8s 5s linear infinite;
+}
+html body .bg span.midCircle {
+  width: 150px;
+  height: 150px;
+  left: 10px;
+  -webkit-animation: bfly 8s 5s linear infinite;
+          animation: bfly 8s 5s linear infinite;
+}
+html body .bg span.smallCircle {
+  width: 100px;
+  height: 100px;
+  -webkit-animation: sfly 10s 5.5s linear infinite;
+          animation: sfly 10s 5.5s linear infinite;
+}
+@-webkit-keyframes bfly {
+  0% {
+    opacity: 1;
+    -webkit-transform: translate(-20%, 500%);
+            transform: translate(-20%, 500%);
+  }
+  20% {
+    -webkit-transform: translate(10%, 400%);
+            transform: translate(10%, 400%);
+  }
+  60% {
+    -webkit-transform: translate(-10%, 200%);
+            transform: translate(-10%, 200%);
+  }
+  80% {
+    -webkit-transform: translate(10%, -10%);
+            transform: translate(10%, -10%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0%, -200%);
+            transform: translate(0%, -200%);
+  }
+}
+@keyframes bfly {
+  0% {
+    opacity: 1;
+    -webkit-transform: translate(-20%, 500%);
+            transform: translate(-20%, 500%);
+  }
+  20% {
+    -webkit-transform: translate(10%, 400%);
+            transform: translate(10%, 400%);
+  }
+  60% {
+    -webkit-transform: translate(-10%, 200%);
+            transform: translate(-10%, 200%);
+  }
+  80% {
+    -webkit-transform: translate(10%, -10%);
+            transform: translate(10%, -10%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0%, -200%);
+            transform: translate(0%, -200%);
+  }
+}
+@-webkit-keyframes sfly {
+  0% {
+    opacity: 1;
+    -webkit-transform: translate(200%, 1000%);
+            transform: translate(200%, 1000%);
+  }
+  20% {
+    -webkit-transform: translate(100%, 900%);
+            transform: translate(100%, 900%);
+  }
+  60% {
+    -webkit-transform: translate(0%, 600%);
+            transform: translate(0%, 600%);
+  }
+  80% {
+    -webkit-transform: translate(100%, 300%);
+            transform: translate(100%, 300%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+@keyframes sfly {
+  0% {
+    opacity: 1;
+    -webkit-transform: translate(200%, 1000%);
+            transform: translate(200%, 1000%);
+  }
+  20% {
+    -webkit-transform: translate(100%, 900%);
+            transform: translate(100%, 900%);
+  }
+  60% {
+    -webkit-transform: translate(0%, 600%);
+            transform: translate(0%, 600%);
+  }
+  80% {
+    -webkit-transform: translate(100%, 300%);
+            transform: translate(100%, 300%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+html header {
+  width: 100%;
+  min-width: 1000px;
+  height: 115px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+html header .top {
+  width: 100%;
+  height: 40px;
+  display: block;
+  background: #131313;
+}
+html header .top .center {
+  width: 1400px;
+  min-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+html header .top .center form {
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html header .top .center form label {
+  width: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+html header .top .center form label .deco {
+  width: 42px;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(#ffb21d), to(#fb890e));
+  background: linear-gradient(to right, #ffb21d 0%, #fb890e 100%);
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+html header .top .center form label .deco .ac_ic {
+  width: 16px;
+  height: 18px;
+  position: relative;
+  z-index: 10;
+}
+html header .top .center form label .deco .pw_ic {
+  width: 14px;
+  height: 18px;
+  position: relative;
+  z-index: 10;
+}
+html header .top .center form label input {
+  width: 200px;
+  height: 28px;
+  border-radius: 50px;
+  border: none;
+  padding: 0 20px 0 50px;
+  margin-right: 10px;
+}
+html header .top .center form label .fgPW {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 4px;
+  right: 18px;
+  z-index: 5;
+  cursor: pointer;
+}
+html header .top .center form button {
+  width: 86px;
+  height: 28px;
+  background: -webkit-gradient(linear, left top, right top, from(#ffb21d), to(#fb890e));
+  background: linear-gradient(to right, #ffb21d 0%, #fb890e 100%);
+  border-radius: 50px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
+html header .top .center form button:nth-of-type(1) {
+  background: -webkit-gradient(linear, left top, right top, from(#a1ea22), to(#34da14));
+  background: linear-gradient(to right, #a1ea22 0%, #34da14 100%);
+  color: #1a1a1a;
+}
+html header .top .center form button:hover, html header .top .center form button:active, html header .top .center form button.active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#434343), to(#232323));
+  background: linear-gradient(to bottom, #434343 0%, #232323 100%);
+  color: #ffffff;
+  border-color: #bababa;
+}
+html header .top .center .lang {
+  width: 100px;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #ffb21d;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+html header .top .center .lang span {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 4px 0 4px;
+  border-color: #ffffff transparent transparent transparent;
+  margin-left: 5px;
+}
+html header .bottom {
+  width: 100%;
+  height: 75px;
+  display: block;
+  background: #ffb21d;
+}
+html header .bottom .center {
+  width: 1400px;
+  min-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html header .bottom .center .logo {
+  width: 10%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html header .bottom .center .logo img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+html header .bottom .center ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 47px;
+}
+html header .bottom .center ul li {
+  width: auto;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2%;
+  background: transparent;
+  border-radius: 50px;
+  color: #1a1a1a;
+  font-size: 20px;
+  white-space: nowrap;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+html header .bottom .center ul li:hover, html header .bottom .center ul li:active, html header .bottom .center ul li.active {
+  background: -webkit-gradient(linear, left top, right top, from(#333333), color-stop(75%, #0e0e0e));
+  background: linear-gradient(to right, #333333 0%, #0e0e0e 75%);
+  color: #ffb21d;
+  text-shadow: 0px 0px 5px #ffb21d;
+}
+@media only screen and (max-width: 1480px) {
+  html header .bottom .center {
+    width: 95%;
+    min-width: 900px;
+  }
+}
+@media only screen and (max-width: 1460px) {
+  html header .bottom .center {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  html header .top .center {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 1157px) {
+  html header .bottom .center ul li {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  html header .bottom .center ul li {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  html header .top .center {
+    width: 94%;
+    min-width: 900px;
+  }
+}
+html .ad {
+  width: auto;
+  max-width: 1400px;
+  min-width: 1000px;
+  height: auto;
+  padding-top: 91px;
+  position: relative;
+  overflow: hidden;
+}
+html .ad.swiper .swiper-slide {
+  height: auto !important;
+  font-size: 0;
+}
+html .ad.swiper .swiper-slide img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+html .ad.swiper .swiper-button-prev,
+html .ad.swiper .swiper-button-next {
+  width: 24px;
+  height: 52px;
+  position: absolute;
+  top: 310px;
+}
+html .ad.swiper .swiper-button-prev::before, html .ad.swiper .swiper-button-prev::after,
+html .ad.swiper .swiper-button-next::before,
+html .ad.swiper .swiper-button-next::after {
+  content: " ";
+}
+html .ad.swiper .swiper-button-prev::before {
+  width: 12px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.3764705882);
+  -webkit-transform: skewX(-30deg);
+          transform: skewX(-30deg);
+  position: absolute;
+  top: 0;
+}
+html .ad.swiper .swiper-button-prev::after {
+  width: 12px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.3764705882);
+  -webkit-transform: skewX(30deg);
+          transform: skewX(30deg);
+  position: absolute;
+  bottom: 0;
+}
+html .ad.swiper .swiper-button-next::before {
+  width: 12px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.3764705882);
+  -webkit-transform: skewX(30deg);
+          transform: skewX(30deg);
+  position: absolute;
+  top: 0;
+}
+html .ad.swiper .swiper-button-next::after {
+  width: 12px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.3764705882);
+  -webkit-transform: skewX(-30deg);
+          transform: skewX(-30deg);
+  position: absolute;
+  bottom: 0;
+}
+html .mq {
+  width: 100%;
+  max-width: 1400px;
+  min-width: 1000px;
+  height: 40px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(3%, #ffb21d), color-stop(24%, #ffb21d), color-stop(54%, #ffeb7a), color-stop(81%, #ffb21d), color-stop(96%, #ffb21d));
+  background: linear-gradient(to right, #ffb21d 3%, #ffb21d 24%, #ffeb7a 54%, #ffb21d 81%, #ffb21d 96%);
+  border-radius: 50px;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2274509804);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2274509804);
+  margin: 20px auto;
+  position: relative;
+}
+html .mq .mqTitle {
+  width: 6%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(#ffb21d), to(#fb890e));
+  background: linear-gradient(to right, #ffb21d 0%, #fb890e 100%);
+  border-radius: 50px;
+  -webkit-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2274509804);
+          box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2274509804);
+  position: absolute;
+  left: 0;
+  z-index: 10;
+}
+html .mq .mqTitle .mqIC {
+  width: 30%;
+  height: 68%;
+}
+html .mq .textBox {
+  width: 99.8%;
+  height: 93.8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffffff;
+  border-radius: 50px;
+  -webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.23), inset -1px -1px 1px 1px rgba(0, 0, 0, 0.23);
+          box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.23), inset -1px -1px 1px 1px rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+  position: absolute;
+  top: 1.2px;
+  left: 1px;
+}
+html .mq .textBox .content {
+  color: #1a1a1a;
+  font-size: 18px;
+  padding-left: 100px;
+  -webkit-animation: mq 8s linear infinite;
+          animation: mq 8s linear infinite;
+}
+@-webkit-keyframes mq {
+  0% {
+    -webkit-transform: translateX(300%);
+            transform: translateX(300%);
+  }
+  100% {
+    -webkit-transform: translateX(-90%);
+            transform: translateX(-90%);
+  }
+}
+@keyframes mq {
+  0% {
+    -webkit-transform: translateX(300%);
+            transform: translateX(300%);
+  }
+  100% {
+    -webkit-transform: translateX(-90%);
+            transform: translateX(-90%);
+  }
+}
+@media only screen and (max-width: 1470px) {
+  html .mq {
+    width: 97%;
+    min-width: 750px;
+  }
+}
+html .mainWrap {
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html .mainWrap article {
+  width: 100%;
+  height: auto;
+}
+html .mainWrap article:not(:last-child) {
+  background: radial-gradient(rgba(32, 32, 32, 0.3019607843) 0%, rgba(66, 66, 66, 0.4) 100%);
+  border: 2px solid rgba(255, 255, 255, 0.262745098);
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0px 0px 79px rgba(255, 255, 255, 0.2941176471), 0px 0px 8px rgba(0, 0, 0, 0.3254901961);
+          box-shadow: inset 0px 0px 79px rgba(255, 255, 255, 0.2941176471), 0px 0px 8px rgba(0, 0, 0, 0.3254901961);
+  padding: 5%;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+html .mainWrap article:not(:last-child):hover, html .mainWrap article:not(:last-child):active, html .mainWrap article:not(:last-child).active {
+  background: radial-gradient(rgba(32, 32, 32, 0.3019607843) 0%, rgba(94, 94, 94, 0.5333333333) 100%);
+}
+html .mainWrap article:not(:last-child):hover .title .subTitle, html .mainWrap article:not(:last-child):active .title .subTitle, html .mainWrap article:not(:last-child).active .title .subTitle {
+  background: -webkit-gradient(linear, left top, right top, from(#000), color-stop(#fff), to(#000));
+  background: linear-gradient(90deg, #000, #fff, #000);
+  overflow: hidden;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: rgba(114, 114, 114, 0);
+  -webkit-animation: textAnimate 1.5s linear forwards;
+          animation: textAnimate 1.5s linear forwards;
+}
+@-webkit-keyframes textAnimate {
+  0% {
+    background-position: -100%;
+  }
+  95% {
+    background-position: 450%;
+  }
+  100% {
+    background: #ffffff;
+    -webkit-background-clip: text;
+            background-clip: text;
+    font-weight: bold;
+  }
+}
+@keyframes textAnimate {
+  0% {
+    background-position: -100%;
+  }
+  95% {
+    background-position: 450%;
+  }
+  100% {
+    background: #ffffff;
+    -webkit-background-clip: text;
+            background-clip: text;
+    font-weight: bold;
+  }
+}
+html .mainWrap article.gameType {
+  margin-bottom: 37px;
+  overflow: hidden;
+}
+html .mainWrap article.gameType .title .bigTitle span {
+  width: auto;
+  color: transparent;
+  text-align: end;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffb21d), to(#fb890e));
+  background: linear-gradient(to top, #ffb21d 0%, #fb890e 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+html .mainWrap article.gameType .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 5% 3fr 5% 3fr;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 10% 5%;
+  justify-items: flex-end;
+  padding: 58px 0;
+}
+html .mainWrap article.gameType .content .gameBlock {
+  width: 100%;
+  height: 203px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0d0d0d), to(rgba(87, 87, 87, 0.4862745098)));
+  background: linear-gradient(0deg, #0d0d0d 0%, rgba(87, 87, 87, 0.4862745098) 100%);
+  border: 1px solid #ffb21d;
+  border-radius: 100px 15px 15px 100px;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8274509804);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8274509804);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+html .mainWrap article.gameType .content .gameBlock:nth-of-type(4), html .mainWrap article.gameType .content .gameBlock:nth-of-type(5), html .mainWrap article.gameType .content .gameBlock:nth-of-type(6) {
+  border-radius: 15px 100px 100px 15px;
+  margin-left: -10px;
+}
+html .mainWrap article.gameType .content .gameBlock:nth-of-type(4) .gamePic, html .mainWrap article.gameType .content .gameBlock:nth-of-type(5) .gamePic, html .mainWrap article.gameType .content .gameBlock:nth-of-type(6) .gamePic {
+  position: absolute;
+  top: -2px;
+  left: unset;
+  right: -1px;
+}
+html .mainWrap article.gameType .content .gameBlock:nth-of-type(4) .typeNameLayer, html .mainWrap article.gameType .content .gameBlock:nth-of-type(5) .typeNameLayer, html .mainWrap article.gameType .content .gameBlock:nth-of-type(6) .typeNameLayer {
+  padding: 0% 54% 0% 0%;
+}
+html .mainWrap article.gameType .content .gameBlock:nth-of-type(4) .detailLayer, html .mainWrap article.gameType .content .gameBlock:nth-of-type(5) .detailLayer, html .mainWrap article.gameType .content .gameBlock:nth-of-type(6) .detailLayer {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: 0.45s ease-in;
+  transition: 0.45s ease-in;
+}
+html .mainWrap article.gameType .content .gameBlock:last-child .gamePic img {
+  -webkit-filter: contrast(200%) grayscale(100%);
+          filter: contrast(200%) grayscale(100%);
+}
+html .mainWrap article.gameType .content .gameBlock .gamePic {
+  width: 204px;
+  height: 204px;
+  background: #ffb21d;
+  border-radius: 200px;
+  position: absolute;
+  top: -2px;
+  left: -1px;
+  z-index: 20;
+  overflow: hidden;
+}
+html .mainWrap article.gameType .content .gameBlock .gamePic img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+html .mainWrap article.gameType .content .gameBlock .typeNameLayer {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0% 0% 0% 57%;
+  position: relative;
+  z-index: 5;
+}
+html .mainWrap article.gameType .content .gameBlock .typeNameLayer p {
+  text-align: center;
+}
+html .mainWrap article.gameType .content .gameBlock .typeNameLayer p.chTitle {
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+html .mainWrap article.gameType .content .gameBlock .typeNameLayer p.enTitle {
+  color: #ffb21d;
+  letter-spacing: 5px;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer {
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#ffb21d), to(#fb8f0f));
+  background: linear-gradient(to right, #ffb21d 0%, #fb8f0f 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 13px;
+  position: absolute;
+  top: -0.1px;
+  left: 1px;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: 0.45s ease-in;
+  transition: 0.45s ease-in;
+  z-index: 10;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter {
+  width: 97%;
+  height: 95%;
+  border-radius: 12px;
+  border: 1.5px solid #000000;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .brandBtn {
+  width: 40%;
+  height: 59%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 4% 3fr 4% 3fr;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 5% 4%;
+  padding: 5% 0 0;
+  margin: 3% 0 5% 57%;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .brandBtn button {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 8px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#292929), to(#171717));
+  background: linear-gradient(to bottom, #292929 0%, #171717 100%);
+  border: 1px solid #ffb21d;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .brandBtn button div {
+  background-position-y: 0%;
+  -webkit-transition: 0.18s;
+  transition: 0.18s;
+  margin: auto;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .brandBtn button div.dg {
+  width: 31px;
+  height: 15px;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .brandBtn button div.sa {
+  width: 19px;
+  height: 21px;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .brandBtn button div.og {
+  width: 27px;
+  height: 21px;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .brandBtn button div.ab {
+  width: 32px;
+  height: 17px;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .brandBtn button div.wm {
+  width: 21px;
+  height: 21px;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .brandBtn button:hover div, html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .brandBtn button:active div, html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .brandBtn button.active div {
+  background-position-y: 100%;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .checkMore {
+  width: 60%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 0 44%;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .checkMore p {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .checkMore .arrow {
+  width: 16%;
+  height: 2px;
+  background: #ffffff;
+  position: relative;
+  -webkit-animation: move 1.5s ease-in-out infinite;
+          animation: move 1.5s ease-in-out infinite;
+}
+html .mainWrap article.gameType .content .gameBlock .detailLayer .outter .checkMore .arrow:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 0 6px 8px;
+  border-color: transparent transparent transparent #ffffff;
+  position: absolute;
+  top: -5px;
+  right: -1px;
+}
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes move {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+html .mainWrap article.gameType .content .gameBlock:hover, html .mainWrap article.gameType .content .gameBlock:active, html .mainWrap article.gameType .content .gameBlock.active {
+  -webkit-box-shadow: 8px 13px 10px rgba(0, 0, 0, 0.8274509804);
+          box-shadow: 8px 13px 10px rgba(0, 0, 0, 0.8274509804);
+}
+html .mainWrap article.gameType .content .gameBlock:hover .gamePic, html .mainWrap article.gameType .content .gameBlock:active .gamePic, html .mainWrap article.gameType .content .gameBlock.active .gamePic {
+  background: #000000;
+}
+html .mainWrap article.gameType .content .gameBlock:hover .gamePic img, html .mainWrap article.gameType .content .gameBlock:active .gamePic img, html .mainWrap article.gameType .content .gameBlock.active .gamePic img {
+  -webkit-filter: none;
+          filter: none;
+}
+html .mainWrap article.gameType .content .gameBlock:hover .detailLayer, html .mainWrap article.gameType .content .gameBlock:active .detailLayer, html .mainWrap article.gameType .content .gameBlock.active .detailLayer {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(4), html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(5), html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(6), html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(4), html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(5), html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(6), html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(4), html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(5), html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(6) {
+  -webkit-box-shadow: -8px 13px 10px rgba(0, 0, 0, 0.8274509804);
+          box-shadow: -8px 13px 10px rgba(0, 0, 0, 0.8274509804);
+}
+html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(4) .detailLayer, html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(5) .detailLayer, html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(6) .detailLayer, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(4) .detailLayer, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(5) .detailLayer, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(6) .detailLayer, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(4) .detailLayer, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(5) .detailLayer, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(6) .detailLayer {
+  left: 0;
+}
+html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(4) .detailLayer .outter .brandBtn, html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(5) .detailLayer .outter .brandBtn, html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(6) .detailLayer .outter .brandBtn, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(4) .detailLayer .outter .brandBtn, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(5) .detailLayer .outter .brandBtn, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(6) .detailLayer .outter .brandBtn, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(4) .detailLayer .outter .brandBtn, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(5) .detailLayer .outter .brandBtn, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(6) .detailLayer .outter .brandBtn {
+  margin: 3% 28% 5% 3%;
+}
+html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(4) .detailLayer .outter .checkMore, html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(5) .detailLayer .outter .checkMore, html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(6) .detailLayer .outter .checkMore, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(4) .detailLayer .outter .checkMore, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(5) .detailLayer .outter .checkMore, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(6) .detailLayer .outter .checkMore, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(4) .detailLayer .outter .checkMore, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(5) .detailLayer .outter .checkMore, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(6) .detailLayer .outter .checkMore {
+  width: 40%;
+  margin: 0 15% 0 5%;
+}
+html .mainWrap article.bet {
+  margin-bottom: 37px;
+}
+html .mainWrap article.bet .title .bigTitle span {
+  width: auto;
+  color: transparent;
+  text-align: end;
+  background: -webkit-gradient(linear, left bottom, left top, from(#a1ea22), to(#34da14));
+  background: linear-gradient(to top, #a1ea22 0%, #34da14 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+html .mainWrap article.bet .content {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 70px;
+  position: relative;
+}
+html .mainWrap article.bet .content .betswiper {
+  width: 90%;
+  height: auto;
+  margin-bottom: 64px;
+  padding: 54px 0;
+  margin: 0 auto 43px;
+  overflow: hidden;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  opacity: 0.6;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide.swiper-slide-active {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  opacity: 1;
+  z-index: 10;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide.swiper-slide-active .betDetail {
+  -webkit-box-shadow: -10px -10px 40px rgba(161, 234, 34, 0.431372549), 10px 10px 40px rgba(161, 234, 34, 0.431372549);
+          box-shadow: -10px -10px 40px rgba(161, 234, 34, 0.431372549), 10px 10px 40px rgba(161, 234, 34, 0.431372549);
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail {
+  width: 434px;
+  height: 298px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0d0d0d), to(rgba(87, 87, 87, 0.4862745098)));
+  background: linear-gradient(0deg, #0d0d0d 0%, rgba(87, 87, 87, 0.4862745098) 100%);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4784313725);
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox {
+  width: 95%;
+  height: 93%;
+  border: 1px solid #a1ea22;
+  border-radius: 15px;
+  padding: 21px;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .titleLine {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .titleLine .gameName {
+  color: #35c519;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .titleLine span {
+  color: #787878;
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .teamName {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .teamName .teamBox {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .teamName .teamBox .logo {
+  width: 33%;
+  height: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .teamName .teamBox .logo .md {
+  width: 70%;
+  height: 70%;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .teamName .teamBox .logo .ba {
+  width: 57%;
+  height: 79%;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .teamName .teamBox p {
+  color: #ffffff;
+  font-size: 18px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .teamName .vs {
+  width: 8%;
+  height: auto;
+  padding: 15px 0;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .pointBox {
+  width: 100%;
+  height: 23%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 21px 0;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .pointBox .stautsBox {
+  width: 29%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #a1ea22;
+  border-radius: 10px;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .pointBox .stautsBox p {
+  color: #ffffff;
+  font-size: 24px;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .pointBox .stautsBox p span {
+  color: #a1ea22;
+  margin-left: 10px;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .getBet {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .getBet button {
+  width: 41%;
+  height: 42px;
+  background: #262626;
+  border: 1px solid #35c519;
+  border-radius: 20px;
+  color: #35c519;
+  font-size: 17px;
+  letter-spacing: 1px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .getBet button:hover, html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .getBet button:active, html .mainWrap article.bet .content .betswiper .swiper-slide .betDetail .outterBox .getBet button.active {
+  color: #a1ea22;
+  -webkit-box-shadow: 0px 0px 10px rgba(161, 234, 34, 0.431372549);
+          box-shadow: 0px 0px 10px rgba(161, 234, 34, 0.431372549);
+}
+html .mainWrap article.bet .content .swiper-button-prev02,
+html .mainWrap article.bet .content .swiper-button-next02 {
+  width: 24px;
+  height: 52px;
+  position: absolute;
+  top: 170px;
+}
+html .mainWrap article.bet .content .swiper-button-prev02::before, html .mainWrap article.bet .content .swiper-button-prev02::after,
+html .mainWrap article.bet .content .swiper-button-next02::before,
+html .mainWrap article.bet .content .swiper-button-next02::after {
+  content: " ";
+}
+html .mainWrap article.bet .content .swiper-button-prev02 {
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+}
+html .mainWrap article.bet .content .swiper-button-prev02::before {
+  width: 12px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.3764705882);
+  -webkit-transform: skewX(-30deg);
+          transform: skewX(-30deg);
+  position: absolute;
+  top: 0;
+}
+html .mainWrap article.bet .content .swiper-button-prev02::after {
+  width: 12px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.3764705882);
+  -webkit-transform: skewX(30deg);
+          transform: skewX(30deg);
+  position: absolute;
+  bottom: 0;
+}
+html .mainWrap article.bet .content .swiper-button-next02 {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+html .mainWrap article.bet .content .swiper-button-next02::before {
+  width: 12px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.3764705882);
+  -webkit-transform: skewX(30deg);
+          transform: skewX(30deg);
+  position: absolute;
+  top: 0;
+}
+html .mainWrap article.bet .content .swiper-button-next02::after {
+  width: 12px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.3764705882);
+  -webkit-transform: skewX(-30deg);
+          transform: skewX(-30deg);
+  position: absolute;
+  bottom: 0;
+}
+html .mainWrap article.bet .content .getIN {
+  width: 178px;
+  height: 51px;
+  background: -webkit-gradient(linear, left top, right top, from(#a1ea22), to(#34da14));
+  background: linear-gradient(to right, #a1ea22 0%, #34da14 100%);
+  border: 1px solid transparent;
+  color: #1a1a1a;
+  font-size: 20px;
+  border-radius: 50px;
+  margin: 0 auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+html .mainWrap article.bet .content .getIN:hover, html .mainWrap article.bet .content .getIN:active, html .mainWrap article.bet .content .getIN.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#a1ea22), to(#34da14));
+  background: linear-gradient(to top, #a1ea22 0%, #34da14 100%);
+  font-weight: bold;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-box-shadow: 0px 0px 10px #a1ea22;
+          box-shadow: 0px 0px 10px #a1ea22;
+  border-color: #a1ea22;
+}
+html .mainWrap article.appAD {
+  margin-bottom: 37px;
+}
+html .mainWrap article.appAD .title .bigTitle span {
+  width: auto;
+  color: transparent;
+  text-align: end;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffb21d), to(#fb890e));
+  background: linear-gradient(to top, #ffb21d 0%, #fb890e 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+html .mainWrap article.appAD .content {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 90px 0 0;
+}
+html .mainWrap article.appAD .content .adPic {
+  width: 100%;
+  height: 455px;
+  position: relative;
+}
+html .mainWrap article.appAD .content .adPic .mainObj {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: 3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+html .mainWrap article.appAD .content .adPic .mainObj.active {
+  -webkit-filter: drop-shadow(10px -10px 90px #ffb21d);
+          filter: drop-shadow(10px -10px 90px #ffb21d);
+}
+html .mainWrap article.appAD .content .adPic .coinAll {
+  width: 91%;
+  height: 343px;
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
+  position: absolute;
+  top: -71px;
+  left: 27px;
+  z-index: 8;
+  opacity: 0;
+}
+html .mainWrap article.appAD .content .adPic .coinAll.active {
+  -webkit-animation: falldown 0.5s 0.2s ease-in-out forwards;
+          animation: falldown 0.5s 0.2s ease-in-out forwards;
+}
+@-webkit-keyframes falldown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+@keyframes falldown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+html .mainWrap article.appAD .content .adPic .light01 {
+  width: 47%;
+  height: 401px;
+  position: absolute;
+  top: -1px;
+  left: -103px;
+  opacity: 0;
+}
+html .mainWrap article.appAD .content .adPic .light01.active {
+  -webkit-animation: showUP 0.2s 0.2s ease-in-out forwards;
+          animation: showUP 0.2s 0.2s ease-in-out forwards;
+}
+@-webkit-keyframes showUP {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes showUP {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+html .mainWrap article.appAD .content .adPic .light02 {
+  width: 50%;
+  height: 419px;
+  position: absolute;
+  top: -66px;
+  right: -25px;
+  opacity: 0;
+}
+html .mainWrap article.appAD .content .adPic .light02.active {
+  -webkit-animation: showUP 0.2s 0.2s ease-in-out forwards;
+          animation: showUP 0.2s 0.2s ease-in-out forwards;
+}
+@keyframes showUP {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+html .mainWrap article.appAD .content .getIN {
+  width: 178px;
+  height: 51px;
+  background: -webkit-gradient(linear, left top, right top, from(#ffb21d), to(#fb890e));
+  background: linear-gradient(to right, #ffb21d 0%, #fb890e 100%);
+  color: #1a1a1a;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  margin: 45px auto 0 auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+html .mainWrap article.appAD .content .getIN:hover, html .mainWrap article.appAD .content .getIN:active, html .mainWrap article.appAD .content .getIN.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffb21d), to(#fb890e));
+  background: linear-gradient(to top, #ffb21d 0%, #fb890e 100%);
+  font-weight: bold;
+  -webkit-box-shadow: 0px 0px 10px #ffb21d;
+          box-shadow: 0px 0px 10px #ffb21d;
+  border-color: #ffb034;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+html .mainWrap article.introduce {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+html .mainWrap article.introduce .dataBlock {
+  width: 31.6666666667%;
+  height: auto;
+  background: radial-gradient(rgba(32, 32, 32, 0.3019607843) 0%, rgba(66, 66, 66, 0.4) 100%);
+  border: 2px solid rgba(255, 255, 255, 0.262745098);
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0px 0px 79px rgba(255, 255, 255, 0.2941176471), 0px 0px 8px rgba(0, 0, 0, 0.3254901961);
+          box-shadow: inset 0px 0px 79px rgba(255, 255, 255, 0.2941176471), 0px 0px 8px rgba(0, 0, 0, 0.3254901961);
+  padding: 5%;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  padding: 2%;
+}
+html .mainWrap article.introduce .dataBlock:hover, html .mainWrap article.introduce .dataBlock:active, html .mainWrap article.introduce .dataBlock.active {
+  background: radial-gradient(rgba(32, 32, 32, 0.3019607843) 0%, rgba(94, 94, 94, 0.5333333333) 100%);
+}
+html .mainWrap article.introduce .dataBlock:hover .title .subTitle, html .mainWrap article.introduce .dataBlock:active .title .subTitle, html .mainWrap article.introduce .dataBlock.active .title .subTitle {
+  background: -webkit-gradient(linear, left top, right top, from(#000), color-stop(#fff), to(#000));
+  background: linear-gradient(90deg, #000, #fff, #000);
+  overflow: hidden;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: rgba(114, 114, 114, 0);
+  -webkit-animation: textAnimate 1.5s linear forwards;
+          animation: textAnimate 1.5s linear forwards;
+}
+@keyframes textAnimate {
+  0% {
+    background-position: -100%;
+  }
+  95% {
+    background-position: 450%;
+  }
+  100% {
+    background: #ffffff;
+    -webkit-background-clip: text;
+            background-clip: text;
+    font-weight: bold;
+  }
+}
+html .mainWrap article.introduce .dataBlock .title .bigTitle span {
+  width: auto;
+  color: transparent;
+  text-align: end;
+  background: -webkit-gradient(linear, left bottom, left top, from(#a1ea22), to(#34da14));
+  background: linear-gradient(to top, #a1ea22 0%, #34da14 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+html .mainWrap article.introduce .dataBlock .content {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+html .mainWrap article.introduce .dataBlock .content .itemLine {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+html .mainWrap article.introduce .dataBlock .content .itemLine .item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+html .mainWrap article.introduce .dataBlock .content .itemLine .item .itemName {
+  color: #ffffff;
+  font-size: 20px;
+}
+html .mainWrap article.introduce .dataBlock .content .itemLine .item .itemName span {
+  color: #787878;
+  font-size: 16px;
+  margin-left: 10px;
+}
+html .mainWrap article.introduce .dataBlock .content .itemLine .item .number {
+  width: auto;
+  color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: end;
+  background: -webkit-gradient(linear, left bottom, left top, from(#a1ea22), to(#34da14));
+  background: linear-gradient(to top, #a1ea22 0%, #34da14 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+html .mainWrap article.introduce .dataBlock .content .itemLine .bar {
+  width: 100%;
+  height: 8px;
+  background: #414141;
+  border-radius: 10px;
+  margin: 10px auto;
+  position: relative;
+  z-index: 2;
+}
+html .mainWrap article.introduce .dataBlock .content .itemLine .bar .percent {
+  width: 40%;
+  height: 8px;
+  background: -webkit-gradient(linear, left top, right top, from(#a1ea22), to(#34da14));
+  background: linear-gradient(to right, #a1ea22 0%, #34da14 100%);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  z-index: 5;
+}
+html .mainWrap article.introduce .dataBlock .content .itemLine .bar .percent.withdraw {
+  width: 70%;
+}
+html .mainWrap article.introduce .dataBlock .content .itemLine .bar .percent.payWay {
+  width: 60%;
+}
+html .mainWrap article.introduce .dataBlock .content .itemLine .bar .percent.mulitplat {
+  width: 30%;
+}
+html .mainWrap article.introduce .dataBlock .content .itemLine .payWayy {
+  width: 90%;
+  height: 34px;
+  margin: 5px 0;
+}
+html .mainWrap article.introduce .dataBlock .content .textBox {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+html .mainWrap article.introduce .dataBlock .content .textBox .text {
+  width: 80%;
+  height: auto;
+}
+html .mainWrap article.introduce .dataBlock .content .textBox .text .sTitle {
+  color: #ffffff;
+  font-size: 20px;
+}
+html .mainWrap article.introduce .dataBlock .content .textBox .text .subTit {
+  color: #787878;
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 25px;
+}
+html .mainWrap article.introduce .dataBlock .content .textBox .iconArea {
+  width: 12%;
+  height: auto;
+}
+html .mainWrap article.introduce .dataBlock .content .textBox .iconArea.live {
+  height: 47px;
+}
+html .mainWrap article.introduce .dataBlock .content .textBox .iconArea.sport {
+  height: 50px;
+}
+html .mainWrap article.introduce .dataBlock .content .textBox .iconArea.slot {
+  height: 47px;
+}
+html .mainWrap article.introduce .dataBlock .content .textBox .iconArea.local {
+  height: 46px;
+}
+html .mainWrap article.introduce .dataBlock .content .textBox .iconArea.product {
+  height: 47px;
+}
+html .mainWrap article.introduce .dataBlock .content .textBox .iconArea.ui {
+  height: 45px;
+}
+html .mainWrap article .title {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+html .mainWrap article .title .bigTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto 20px;
+}
+html .mainWrap article .title .bigTitle span {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 20px 0 0;
+}
+html .mainWrap article .title .bigTitle span:last-child {
+  margin: 0;
+}
+html .mainWrap article .title .subTitle {
+  color: #c5c5c5;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+html .mainWrap article .content {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 1460px) {
+  html .mainWrap article {
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 1445px) {
+  html .mainWrap article.gameType .content {
+    gap: 7% 2%;
+  }
+}
+@media only screen and (max-width: 1315px) {
+  html .mainWrap article.gameType .content {
+    gap: 7% 2%;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  html .mainWrap article.gameType .content .gameBlock .detailLayer {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1190px) {
+  html .mainWrap article.gameType .content {
+    justify-items: center;
+  }
+  html .mainWrap article.gameType .content .gameBlock {
+    width: 203px;
+    border-radius: 100px;
+  }
+  html .mainWrap article.gameType .content .gameBlock:nth-of-type(4), html .mainWrap article.gameType .content .gameBlock:nth-of-type(5), html .mainWrap article.gameType .content .gameBlock:nth-of-type(6) {
+    border-radius: 100px;
+  }
+  html .mainWrap article.gameType .content .gameBlock .typeNameLayer {
+    padding: 0px;
+  }
+  html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(4) .typeNameLayer, html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(5) .typeNameLayer, html .mainWrap article.gameType .content .gameBlock:hover:nth-of-type(6) .typeNameLayer, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(4) .typeNameLayer, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(5) .typeNameLayer, html .mainWrap article.gameType .content .gameBlock:active:nth-of-type(6) .typeNameLayer, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(4) .typeNameLayer, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(5) .typeNameLayer, html .mainWrap article.gameType .content .gameBlock.active:nth-of-type(6) .typeNameLayer {
+    padding-right: 0;
+    z-index: 20;
+  }
+  html .mainWrap article.gameType .content .gameBlock:hover .gamePic img, html .mainWrap article.gameType .content .gameBlock:active .gamePic img, html .mainWrap article.gameType .content .gameBlock.active .gamePic img {
+    -webkit-filter: blur(5px) brightness(0.5);
+            filter: blur(5px) brightness(0.5);
+  }
+  html .mainWrap article.gameType .content .gameBlock:hover .typeNameLayer, html .mainWrap article.gameType .content .gameBlock:active .typeNameLayer, html .mainWrap article.gameType .content .gameBlock.active .typeNameLayer {
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    z-index: 20;
+  }
+}
+@media only screen and (max-width: 1370px) {
+  html .mainWrap article {
+    width: 97%;
+  }
+}
+@media only screen and (max-width: 1125px) {
+  html .mainWrap article.bet .content {
+    margin: 0 auto;
+  }
+  html .mainWrap article.bet .content .betswiper {
+    margin: 0 auto;
+  }
+  html .mainWrap article.bet .content .betswiper .swiper-slide {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+  html .mainWrap article.bet .content .betswiper .swiper-slide.swiper-slide-active {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+@media only screen and (max-width: 1030px) {
+  html .mainWrap article {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  html .mainWrap article.bet .swiper-button-next02 {
+    left: unset;
+    right: 11px;
+  }
+  html .mainWrap article.appAD .content {
+    padding: 15px 0 0;
+  }
+  html .mainWrap article.appAD .content .getIN {
+    margin: 0 auto;
+    z-index: 15;
+  }
+  html .mainWrap article.introduce .title .bigTitle span {
+    font-size: 30px;
+  }
+}
+html footer {
+  width: 100%;
+  min-width: 1000px;
+  height: 260px;
+  background: #ffb21d;
+  z-index: 999;
+}
+html footer nav {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  border-bottom: 2px solid #131313;
+}
+html footer nav ul {
+  width: 100%;
+  height: 67px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html footer nav ul li {
+  width: auto;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: transparent;
+  border-radius: 50px;
+  white-space: nowrap;
+  padding: 0 17px;
+  margin-right: 5%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+html footer nav ul li p {
+  color: #1a1a1a;
+  font-size: 18px;
+  white-space: nowrap;
+}
+html footer nav ul li:last-child {
+  margin-right: 0;
+}
+html footer nav ul li:hover, html footer nav ul li:active, html footer nav ul li.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#333333), color-stop(75%, #0e0e0e));
+  background: linear-gradient(to top, #333333 0%, #0e0e0e 75%);
+  color: #ffb21d;
+}
+html footer .aboutCopany {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html footer .aboutCopany p {
+  color: #1a1a1a;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  margin: 48px auto;
+}
+html aside .app {
+  width: 110px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffb21d;
+  border-radius: 10px;
+  position: fixed;
+  top: 217px;
+  left: 0;
+  z-index: 999;
+  cursor: pointer;
+}
+html aside .app .content {
+  width: 95%;
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1.5px solid #131313;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+html aside .app ul {
+  display: none;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 43px;
+  left: 0;
+}
+html aside .app ul.active {
+  display: block;
+}
+html aside .app ul li {
+  display: block;
+  width: 110px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#202020), to(#424242));
+  background: linear-gradient(to bottom, #202020 0%, #424242 100%);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4784313725);
+  -webkit-box-shadow: inset 0px 0px 12px rgba(255, 255, 255, 0.1294117647);
+          box-shadow: inset 0px 0px 12px rgba(255, 255, 255, 0.1294117647);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+html aside .app ul li:hover, html aside .app ul li:active, html aside .app ul li.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#292929), to(#171717));
+  background: linear-gradient(to top, #292929 0%, #171717 100%);
+  border: 1px solid #666666;
+  -webkit-box-shadow: inset 0px 0px 0px rgba(255, 255, 255, 0.1294117647);
+          box-shadow: inset 0px 0px 0px rgba(255, 255, 255, 0.1294117647);
+  color: #ffb21d;
+}
+html aside .cs24hr {
+  width: 110px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffb21d;
+  border-radius: 10px;
+  position: fixed;
+  top: 217px;
+  right: 0;
+  z-index: 999;
+  cursor: pointer;
+}
+html aside .cs24hr .content {
+  width: 95%;
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1.5px solid #131313;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+html aside .cs24hr ul {
+  display: none;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 43px;
+  left: 0;
+}
+html aside .cs24hr ul.active {
+  display: block;
+}
+html aside .cs24hr ul li {
+  display: block;
+  width: 110px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#202020), to(#424242));
+  background: linear-gradient(to bottom, #202020 0%, #424242 100%);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4784313725);
+  -webkit-box-shadow: inset 0px 0px 12px rgba(255, 255, 255, 0.1294117647);
+          box-shadow: inset 0px 0px 12px rgba(255, 255, 255, 0.1294117647);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+html aside .cs24hr ul li:hover, html aside .cs24hr ul li:active, html aside .cs24hr ul li.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#292929), to(#171717));
+  background: linear-gradient(to top, #292929 0%, #171717 100%);
+  border: 1px solid #666666;
+  -webkit-box-shadow: inset 0px 0px 0px rgba(255, 255, 255, 0.1294117647);
+          box-shadow: inset 0px 0px 0px rgba(255, 255, 255, 0.1294117647);
+  color: #ffb21d;
+}

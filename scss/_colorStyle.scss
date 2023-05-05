@@ -1,0 +1,110 @@
+//主色
+$mainColor: #ffb21d;
+$subColor: #131313;
+$mainMixColor: linear-gradient(to right, #ffb21d 0%, #fb890e 100%);
+$hightLightMix: linear-gradient(to right, #a1ea22 0%, #34da14 100%);
+
+//字色
+$mainFONT: #1a1a1a;
+$subFONT: #ffffff;
+$main_title_linear: linear-gradient(to top, #ffb21d 0%, #fb890e 100%);
+$sub_title_linear: linear-gradient(to top, #a1ea22 0%, #34da14 100%);
+$smallTitle: #c5c5c5;
+$gameTitle: #35c519;
+$gameTime: #787878;
+
+//border
+$btnHOVborder: #bababa;
+$getINbtn_border: #ffb034;
+
+//header
+$btnHOV_bg: linear-gradient(to bottom, #434343 0%, #232323 100%);
+$liHOV_bg: linear-gradient(to right, #333333 0%, #0e0e0e 75%);
+
+//ad
+$swiperBTN: #ffffff60;
+
+//mq
+$mqBG: linear-gradient(to right, #ffb21d 3%, #ffb21d 24%, #ffeb7a 54%, #ffb21d 81%, #ffb21d 96%);
+$mqTitleBG: linear-gradient(to right, #ffb21d 0%, #fb890e 100%);
+$mqTiShadow: #0000003a;
+$mqTextBOxBG: #ffffff;
+
+//aside
+$btnBG: linear-gradient(to bottom, #202020 0%, #424242 100%);
+$btnBGHOV: linear-gradient(to top, #292929 0%, #171717 100%);
+$btnInsetShadow: #ffffff21;
+$asideBorder: #ffffff7a;
+$asideBorderHOV: #666666;
+
+//mainWrap
+$gameBlockBG: linear-gradient(0deg, #0d0d0d 0%, #5757577c 100%);
+$gameBlockShadow: #000000d3;
+$gamepic: #000000;
+$detailLayerBG: linear-gradient(to right, #ffb21d 0%, #fb8f0f 100%);
+$brandBtn: linear-gradient(to bottom, #292929 0%, #171717 100%);
+$betBorder: #a1ea22;
+$betoutLight: #a1ea226e;
+$betteamLOGO: #ffffff;
+$betgetinBtnBG: #262626;
+$barTubeBG: #414141;
+
+//樣式
+@mixin articleBG {
+    background: radial-gradient(#2020204d 0%, #42424266 100%);
+    border: 2px solid #ffffff43;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 79px #ffffff4b,  0px 0px 8px #00000053;
+    padding: 5%;
+    transition: transform 0.4s;
+    
+    &:hover,&:active,&.active {
+        background: radial-gradient(#2020204d 0%, #5e5e5e88 100%);
+        // transform: rotateY(-10deg) rotateZ(1deg) scale(0.9);
+
+        .title {
+            .subTitle {
+                background: linear-gradient(90deg, #000, #fff, #000);
+                overflow: hidden;
+                background-size: 80%;
+                background-repeat: no-repeat;
+                background-clip: text;
+                -webkit-text-fill-color: rgba(114, 114, 114, 0);
+                animation: textAnimate 1.5s linear forwards;
+
+                @keyframes textAnimate {
+                    0% {
+                      background-position: -100%;
+                    }
+                    95% {
+                      background-position: 450%;
+                    }
+                    100% {
+                      background: #ffffff;
+                      background-clip: text;
+                      font-weight: bold;
+                    }
+                  }
+            }
+        }
+    }
+}
+
+@mixin scrllBar {
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $hightLightMix;
+        border-radius: 15px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $gameBlockShadow;
+    }
+}
+
+//footer
+$navHOV_bg: linear-gradient(to top, #333333 0%, #0e0e0e 75%);

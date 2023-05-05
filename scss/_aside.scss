@@ -1,0 +1,129 @@
+aside {
+    .app {
+        width: 110px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $mainColor;
+        border-radius: 10px;
+        position: fixed;
+        top: 217px;
+        left: 0;
+        z-index: 999;
+        cursor: pointer;
+        
+        .content {
+            width: 95%;
+            height: 85%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1.5px solid $subColor;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        ul {
+            display: none;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 43px;
+            left: 0;
+
+            &.active {
+                display: block;
+            }
+
+            li {
+                display: block;
+                width: 110px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: $btnBG;
+                border-radius: 10px;
+                border: 1px solid $asideBorder;
+                box-shadow: inset 0px 0px 12px $btnInsetShadow;
+                color: $subFONT;
+                font-size: 15px;
+                font-weight: bold;
+                margin-bottom: 3px;
+
+                &:hover,&:active,&.active {
+                    background: $btnBGHOV;
+                    border: 1px solid $asideBorderHOV;
+                    box-shadow: inset 0px 0px 0px $btnInsetShadow;
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+
+    .cs24hr {
+        width: 110px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $mainColor;
+        border-radius: 10px;
+        position: fixed;
+        top: 217px;
+        right: 0;
+        z-index: 999;
+        cursor: pointer;
+
+        .content {
+            width: 95%;
+            height: 85%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1.5px solid $subColor;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        ul {
+            display: none;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 43px;
+            left: 0;
+
+            &.active {
+                display: block;
+            }
+
+            li {
+                display: block;
+                width: 110px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: $btnBG;
+                border-radius: 10px;
+                border: 1px solid $asideBorder;
+                box-shadow: inset 0px 0px 12px $btnInsetShadow;
+                color: $subFONT;
+                font-size: 15px;
+                font-weight: bold;
+                margin-bottom: 3px;
+
+                &:hover,&:active,&.active {
+                    background: $btnBGHOV;
+                    border: 1px solid $asideBorderHOV;
+                    box-shadow: inset 0px 0px 0px $btnInsetShadow;
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+}
