@@ -1,0 +1,144 @@
+.ad {
+    width: auto;
+    max-width: 1400px;
+    min-width: 1000px;
+    height: auto;
+    padding-top: 91px;
+    position: relative;
+    overflow: hidden;
+
+    &.swiper {
+        .swiper-slide {
+            height: auto !important;
+            font-size: 0;
+
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+        .swiper-button-prev,
+        .swiper-button-next {
+            width: 24px;
+            height: 52px;
+            position: absolute;
+            top: 310px;
+
+
+            &::before,
+            &::after {
+                content: " ";
+            }
+        }
+
+        .swiper-button-prev {
+
+            &::before {
+                width: 12px;
+                height: 26px;
+                background: $swiperBTN;
+                transform: skewX(-30deg);
+                position: absolute;
+                top: 0;
+            }
+
+            &::after {
+                width: 12px;
+                height: 26px;
+                background: $swiperBTN;
+                transform: skewX(30deg);
+                position: absolute;
+                bottom: 0;
+            }
+        }
+        .swiper-button-next {
+
+            &::before {
+                width: 12px;
+                height: 26px;
+                background: $swiperBTN;
+                transform: skewX(30deg);
+                position: absolute;
+                top: 0;
+            }
+
+            &::after {
+                width: 12px;
+                height: 26px;
+                background: $swiperBTN;
+                transform: skewX(-30deg);
+                position: absolute;
+                bottom: 0;
+            }
+        }
+    }
+}
+
+.mq {
+    width: 100%;
+    max-width: 1400px;
+    min-width: 1000px;
+    height: 40px;
+    background: $mqBG;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px $mqTiShadow;
+    margin: 20px auto;
+    position: relative;
+
+    .mqTitle {
+        width: 6%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $mqTitleBG;
+        border-radius: 50px;
+        box-shadow: 2px 0 5px $mqTiShadow;
+        position: absolute;
+        left: 0;
+        z-index: 10;
+
+        .mqIC {
+            width: 30%;
+            height: 68%;
+        }
+    }
+
+    .textBox {
+        width: 99.8%;
+        height: 93.8%;
+        display: flex;
+        align-items: center;
+        background: $mqTextBOxBG;
+        border-radius: 50px;
+        box-shadow: inset 1px 1px 1px 1px rgb(0 0 0 / 23%), 
+                    inset -1px -1px 1px 1px rgb(0 0 0 / 23%);
+        overflow: hidden;
+        position: absolute;
+        top: 1.2px;
+        left: 1px;
+
+        .content {
+            color: $mainFONT;
+            font-size: 18px;
+            padding-left: 100px;
+            animation: mq 8s linear infinite;
+        }
+
+        @keyframes mq {
+            0% {
+                transform: translateX(300%);
+            }
+            100% {
+                transform: translateX(-90%);
+            }
+        }
+    }
+
+    
+    @media only screen and (max-width: 1470px) {
+        width: 97%;
+        min-width: 750px;
+    }
+    
+}

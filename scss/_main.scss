@@ -1,0 +1,111 @@
+html {
+    width: 100%;
+    min-width: 1000px;
+    height: 100%;
+    position: relative;
+
+    body {
+        width: auto;
+        height: 100%;
+        position: relative;
+        
+        @include scrllBar;
+
+        &::-webkit-scrollbar {
+            width: 0;
+        }
+
+        .bg {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -999;
+
+            span {
+                background: $mainMixColor;
+                border-radius: 200px;
+                transition: 0.5s;
+                opacity: 0;
+                position: absolute;
+                top: 0;
+                left: 100px;
+                z-index: -800;
+
+                &.right {
+                    left: unset;
+                    right: 100px;
+
+                    &.bigCircle {
+                        animation: bfly 8s 2s linear infinite;
+                    }
+                }
+
+                &.bigCircle {
+                    width: 200px;
+                    height: 200px;
+                    animation: bfly 8s 5s linear infinite;
+                } 
+                &.midCircle {
+                    width: 150px;
+                    height: 150px;
+                    left: 10px;
+                    animation: bfly 8s 5s linear infinite;
+                }
+
+                &.smallCircle {
+                    width: 100px;
+                    height: 100px;
+                    animation: sfly 10s 5.5s linear infinite;
+                } 
+
+                @keyframes bfly {
+                    0% {
+                        opacity: 1;
+                        transform: translate(-20% ,500%);
+                    }
+                    20% {
+                        transform: translate(10% , 400%);
+                    }
+                    60% {
+                        transform: translate(-10% , 200%);
+                    }
+                    80% {
+                        transform: translate(10% , -10%);
+                    }
+                    100% {
+                        opacity: 1;
+                        transform: translate(0% , -200%);
+                    }
+                }
+
+                @keyframes sfly {
+                    0% {
+                        opacity: 1;
+                        transform: translate(200% , 1000%);
+                    }
+                    20% {
+                        transform: translate(100% , 900%);
+                    }
+                    60% {
+                        transform: translate(0% , 600%);
+                    }
+                    80% {
+                        transform: translate(100% , 300%);
+                    }
+                    100% {
+                        opacity: 1;
+                        transform: translate(0% , 0%);
+                    }
+                }
+            }
+        }
+    }
+
+    @import "./_header";
+    @import "./_ad";
+    @import "./_mainWrap";
+    @import "./_footer";
+    @import "./_aside";
+}
