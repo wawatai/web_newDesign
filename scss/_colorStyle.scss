@@ -1,0 +1,100 @@
+// 主色調
+$main_color: #fed600;
+$sub_color: #141414;
+$sub02_color: #ffffff;
+
+//字色
+$main_font: #141414;
+$sub_font: #ffffff;
+
+//線色
+$main_border: $sub_color;
+$sub_border: #ffffff;
+
+//scrollBar
+$scrollBar_thumb: #fed8008c;
+$scrollBar_track: #ffffff7a;
+
+//輪播分頁圓點
+$swiper-pagination-bullet: #ffffff7a;
+
+//gameType BtnColor
+$live_Btn: #f56fbe;
+$live_lightBtn: #fe93d2;
+$sport_Btn: #30c54f;
+$sport_lightBtn: #56e074;
+$fish_Btn: #b466fe;
+$fish_lightBtn: #c88eff;
+$slot_Btn: #3db9fa;
+$slot_lightBtn: #6ad4fb;
+$board_Btn: #f88b2a;
+$board_lightBtn: #ffa04b;
+
+//樣式
+@mixin borderBlock {
+    background: #ffffff;
+    border: 1px solid $sub_color;
+    color: $main_font;
+    font-weight: bold;
+}
+
+//footer 左側標題標籤
+@mixin themeTag {
+    width: 172px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    background: $main_color;
+    border: 2px solid $main_border;
+    padding: 0 10px;
+    color: $main_font;
+    font-size: 20px;
+    font-weight: bold;
+    filter: drop-shadow(3px 2px 0.5px $main_border);
+    position: absolute;
+    top: 20px;
+    left: -2px;
+
+    &::before {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width:  20px 16px 0 0px;
+        border-color: $main_color transparent transparent transparent;
+        filter: drop-shadow(3px -2px 0.5px $main_border);
+        position: absolute;
+        top: 0;
+        right: -15px;
+    }
+    &::after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width:  0 16px 20px 0px;
+        border-color: transparent transparent $main_color transparent;
+        filter: drop-shadow(3px 2px 0.5px $main_border);
+        position: absolute;
+        bottom: 0;
+        right: -15px;
+    }
+}
+
+@mixin scrollBar {
+    
+    &::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $scrollBar_thumb;
+        border-radius: 15px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $scrollBar_track;
+        border-radius: 15px;
+    }
+}
