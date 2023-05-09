@@ -1,0 +1,1458 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 ;
+}
+
+body {
+  width: 100%;
+  min-width: 800px;
+  height: 100%;
+  font-family: 微軟正黑體;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+h2 {
+  width: 480px;
+  height: 50px;
+}
+
+.wrap {
+  width: 100%;
+  min-width: 800px;
+  height: auto;
+  margin: 50px auto;
+}
+
+.mq_horizontalArea {
+  width: auto;
+  min-width: 800px;
+  height: 380px;
+  margin: 0 auto;
+}
+
+.midArea {
+  width: 100%;
+  height: auto;
+}
+
+.midArea .lineBox {
+  width: 100%;
+  min-width: 800px;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
+.mq_vertically {
+  width: 30%;
+  height: auto;
+  display: flex;
+  padding: auto 0;
+}
+
+.cardArea {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+}
+
+.rankArea {
+  width: 100%;
+  height: auto;
+}
+.rankArea h2 {
+  margin-bottom: 20px;
+}
+
+.rank_cronArea {
+  width: 100%;
+  height: 60px;
+  background-color: azure;
+}
+/* 跑馬燈(橫)-動畫 */
+@keyframes mqH_ani {
+  100% {
+    transform: translateX(-100%);
+  }
+  0% {
+    transform: translateX(100%);
+  }
+}
+/* 跑馬燈(直)-動畫 */
+@keyframes mqY_ani {
+  100% {
+    transform: translateY(-180%);
+  }
+  0% {
+    transform: translateY(180%);
+  }
+}
+
+/* 跑馬燈1(橫) */
+.mq_1 {
+  width: 95%;
+  height: 53px;
+  display: flex;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.mq_1 .deco {
+  width: 331px;
+  height: 63px;
+  background: linear-gradient(
+    to right,
+    #ffbb44 0%,
+    #fe7b9f 25%,
+    #fc3bfa 54%,
+    #ae20e4 100%
+  );
+  clip-path: polygon(9% 0%, 0% 100%, 58% 100%, 67% 14%, 100% 14%, 97% 0);
+  border-radius: 5px 0 5px 0;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  padding: 15px 52px;
+  box-sizing: border-box;
+  position: absolute;
+  top: -7px;
+  left: 0;
+  z-index: 1;
+}
+
+.mq_1 .mqBar {
+  width: 100%;
+  height: 52px;
+  background: #ffff;
+  border: 2px solid #af20e4;
+  padding: 10px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-left: 190px;
+  position: relative;
+}
+
+.mq_1 .mqBar::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 51px 34px;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  top: 0.5px;
+  right: -3px;
+}
+
+.mq_1 .mqBar .content {
+  font-size: 18px;
+  margin: 0;
+  animation: mqH_ani 15s linear 0s infinite;
+}
+
+.mq_1 .deco2 {
+  width: 245px;
+  height: 65px;
+  background: url(./img/mq1_deco.png) no-repeat;
+  position: absolute;
+  top: -6px;
+  right: -3px;
+  z-index: 1;
+}
+
+.mq_1 .deco2::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 67px 43px;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  top: -3.5px;
+  right: -3px;
+}
+
+/* 跑馬燈(橫)2 */
+.mq_2 {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 70px;
+}
+
+.mq_2 .mqBar {
+  width: 1287px;
+  height: 49px;
+  background: #fff;
+  border-radius: 50px;
+  margin-left: 62px;
+  position: relative;
+}
+
+.mq_2 .mqBar::before {
+  content: "";
+  width: 1400px;
+  height: 53px;
+  background: #2850ff;
+  border-radius: 50px;
+  position: absolute;
+  top: -2px;
+  left: -62px;
+  z-index: -1;
+}
+
+.mq_2 .mqBar::after {
+  content: "";
+  width: 30px;
+  height: 24px;
+  background: url(./img/mq2_icon.png) no-repeat;
+  position: absolute;
+  top: 14px;
+  left: -42px;
+}
+
+.mq_2 .mqBar .textBox {
+  width: 1287px;
+  height: 49px;
+  border-radius: 50px;
+  padding: 14px 34px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.mq_2 .mqBar .textBox .content {
+  font-size: 18px;
+  margin: 0;
+  animation: mqH_ani 15s linear 0s infinite;
+}
+
+/* 跑馬燈(橫)3 */
+.mq_3 {
+  width: 90%;
+  height: 45px;
+  display: flex;
+  margin-left: 53px;
+  position: relative;
+}
+
+.mq_3 .title {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: -6px;
+  left: 48px;
+  z-index: 1;
+}
+
+.mq_3 .deco1 {
+  width: 165px;
+  height: 55px;
+  background: linear-gradient(to right, #b50730 1%, #ee1736 45%, #a2052a 98%);
+  transform: skew(335deg);
+  padding: 13px 47px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.mq_3 .deco1::before {
+  content: "";
+  width: 12px;
+  height: 43px;
+  background: linear-gradient(to bottom, #b50730 1%, #ee1736 45%, #a2052a 98%);
+  position: absolute;
+  top: 18px;
+  left: -23px;
+}
+
+.mq_3 .deco1::after {
+  content: "";
+  width: 12px;
+  height: 43px;
+  background: linear-gradient(to bottom, #b50730 1%, #ee1736 45%, #a2052a 98%);
+  position: absolute;
+  top: -6px;
+  right: -24px;
+}
+
+.mq_3 .mqBar {
+  width: 100%;
+  height: 47px;
+  background: #f1f1f1;
+  padding: 10px 0;
+  box-sizing: border-box;
+  margin: 0 0 0 -10px;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+}
+
+.mq_3 .mqBar .content {
+  font-size: 18px;
+  margin: 0;
+  animation: mqH_ani 15s linear 0s infinite;
+}
+
+.mq_3 .deco2 {
+  width: 27px;
+  height: 53px;
+  background: linear-gradient(60deg, #b50730 1%, #ee1736 45%, #a2052a 98%);
+  transform: skew(327deg);
+  margin-left: -20px;
+  position: relative;
+}
+
+.mq_3 .deco2::before {
+  content: "";
+  width: 15px;
+  height: 31px;
+  background: linear-gradient(to bottom, #b50730 1%, #ee1736 45%, #a2052a 98%);
+  position: absolute;
+  top: -11px;
+  left: -26px;
+}
+
+.mq_3 .deco2::after {
+  content: "";
+  width: 14px;
+  height: 43px;
+  background: linear-gradient(to bottom, #b50730 1%, #ee1736 45%, #a2052a 98%);
+  position: absolute;
+  top: 23px;
+  right: -24px;
+}
+
+/* 跑馬燈(直)1 */
+.mqV_1 {
+  width: 44px;
+  height: 670px;
+  margin: 20px 50px 0;
+}
+
+.mqV_1 .icon {
+  margin: 1px 5px 0;
+}
+
+.mqV_1 .mqBar {
+  width: 44px;
+  height: 580px;
+  background: #ffff;
+  border: 2px solid #175a22;
+  position: relative;
+}
+
+.mqV_1 .mqBar::before {
+  content: "";
+  width: 57px;
+  height: 57px;
+  background: #ffff;
+  border: 2px solid #175a22;
+  border-radius: 50px;
+  position: absolute;
+  top: -48px;
+  left: -8px;
+  z-index: -1;
+}
+
+.mqV_1 .mqBar::after {
+  content: "";
+  width: 48px;
+  height: 49px;
+  background: linear-gradient(to right, #175721 1%, #148827 36%, #175721 100%);
+  border-radius: 0 0 40px 40px;
+  position: absolute;
+  bottom: -24px;
+  left: -2px;
+}
+
+.mqV_1 .mqBar .topDeco {
+  width: 58px;
+  height: 25px;
+  background: linear-gradient(to right, #175721 1%, #148827 36%, #175721 100%);
+  color: #ffff;
+  font-size: 15px;
+  padding: 3px 7px;
+  box-sizing: border-box;
+  margin: -7px;
+  position: relative;
+}
+.mqV_1 .mqBar .topDeco::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 14px solid #114d1b;
+  border-right: 11px solid #114d1b;
+  border-bottom-color: #114d1b;
+  border-left-color: transparent;
+  position: absolute;
+  top: 1px;
+  left: -17px;
+  z-index: -1;
+}
+.mqV_1 .mqBar .topDeco::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 14px solid #114d1b;
+  border-left: 11px solid #114d1b;
+  border-bottom-color: #114d1b;
+  border-right-color: transparent;
+  position: absolute;
+  top: 1px;
+  right: -17px;
+  z-index: -1;
+}
+
+.mqV_1 .mqBar .textBox {
+  width: 44px;
+  height: 537px;
+  overflow: hidden;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  z-index: 1;
+}
+
+.mqV_1 .mqBar .textBox .content {
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  padding: 0 11px;
+  box-sizing: border-box;
+  margin: 0;
+  animation: mqY_ani 15s linear 0s infinite;
+}
+
+.mqV_1 .mqBar .textBox .content span {
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  margin: 9px 5px;
+  letter-spacing: 4px;
+}
+
+/* 跑馬燈(直)2 */
+.mqV_2 {
+  width: 44px;
+  height: 670px;
+  margin-right: 50px;
+  position: relative;
+}
+
+.mqV_2 .topDeco {
+  width: 53px;
+  height: 107px;
+  background: linear-gradient(to right, #113f93 0%, #182256 100%);
+  clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+  position: absolute;
+  top: 21px;
+  left: -3.5px;
+  z-index: -1;
+}
+
+.mqV_2 .topDeco2 {
+  width: 45px;
+  height: 24px;
+  background: #ffff;
+  clip-path: polygon(50% 0, 100% 70%, 100% 99%, 50% 30%, 0 100%, 0 70%);
+  position: absolute;
+  top: 33px;
+  left: 0px;
+}
+
+.mqV_2 .mqBar {
+  width: 44px;
+  height: 580px;
+  background: #ffff;
+  clip-path: polygon(50% 0.1%, 100% 3%, 100% 97%, 50% 100%, 0 97%, 0 3%);
+  border: 1px solid #17265e;
+  margin-top: 54px;
+  position: relative;
+}
+
+.mqV_2 .mqBar .textBox {
+  width: 44px;
+  height: 567px;
+  clip-path: polygon(0 7%, 50% 0, 100% 6%, 100% 100%, 50% 95%, 0 100%);
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.mqV_2 .mqBar .textBox .content {
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  margin: 0;
+  animation: mqY_ani 15s linear 0s infinite;
+}
+
+.mqV_2 .mqBar .textBox .content span {
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  margin: 9px 5px;
+  letter-spacing: 4px;
+}
+
+.mqV_2 .downDeco {
+  width: 53px;
+  height: 107px;
+  background: linear-gradient(to right, #113f93 0%, #182256 100%);
+  clip-path: polygon(50% 0.2%, 100% 20%, 100% 80%, 50% 99.8%, 0 80%, 0 20%);
+  margin: -96px 0 0 -3.5px;
+  position: relative;
+  z-index: -1;
+}
+
+.mqV_2 .downDeco2 {
+  width: 47px;
+  height: 28px;
+  background: linear-gradient(to right, #113f93 0%, #182256 100%);
+  clip-path: polygon(50% 0, 100% 70%, 100% 99%, 50% 30%, 0 100%, 0 70%);
+  position: absolute;
+  bottom: 48px;
+  left: 0px;
+}
+
+.mqV_2 .downDeco3 {
+  width: 47px;
+  height: 25px;
+  background: linear-gradient(to right, #113f93 0%, #182256 100%);
+  clip-path: polygon(50% 0, 100% 80%, 100% 100%, 50% 20%, 0 100%, 0 80%);
+  position: absolute;
+  bottom: 52px;
+  left: 0px;
+}
+
+/* 跑馬燈(直)3 */
+.mqV_3 {
+  width: 30px;
+  height: 517x;
+  margin-right: 86px;
+}
+
+.mqV_3 .topDeco {
+  width: 47px;
+  height: 104px;
+  background: linear-gradient(to top, #0e60e7 0%, #38a8fe 79%);
+  border-radius: 5px;
+  color: #ffff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  writing-mode: vertical-lr;
+  padding: 9px 11px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.mqV_3 .topDeco::before {
+  content: "";
+  width: 39px;
+  height: 97px;
+  border: 1px solid #ffff;
+  border-radius: 5px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.mqV_3 .topDeco::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #ffff;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 7px;
+  left: 21px;
+}
+
+.mqV_3 .mqBar {
+  width: 30px;
+  height: 509px;
+  background: #ffff;
+  border: 1px solid #17265e;
+  border-radius: 5px;
+  margin: 32px 7px;
+  position: relative;
+}
+
+.mqV_3 .mqBar::before {
+  content: "";
+  width: 47px;
+  height: 550px;
+  background: linear-gradient(to bottom, #0f61e7 4%, #38a8fe 82%, #0f61e7 100%);
+  border-radius: 5px;
+  position: absolute;
+  top: -21px;
+  left: -8px;
+  z-index: -1;
+}
+
+.mqV_3 .mqBar::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #ffff;
+  border-radius: 5px;
+  position: absolute;
+  top: -11px;
+  left: 13px;
+}
+
+.mqV_3 .mqBar .textBox {
+  width: 30px;
+  height: 509px;
+  overflow: hidden;
+  position: absolute;
+  top: -1px;
+  left: 1;
+  z-index: 1;
+}
+
+.mqV_3 .mqBar .textBox .content {
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  margin: 0 3px;
+  animation: mqY_ani 15s linear 0s infinite;
+}
+
+.mqV_3 .mqBar .textBox .content span {
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  margin: 9px 5px;
+  letter-spacing: 4px;
+}
+
+/* 跑馬燈(直)4 */
+.mqV_4 {
+  width: 44px;
+  height: 670px;
+  margin: 20px 50px 0 0;
+  position: relative;
+}
+.mqV_4 .sideDeco {
+  width: 30px;
+  height: 141px;
+  background: linear-gradient(to top, #fa36a0 10%, #fe38a3 100%);
+  clip-path: polygon(0 7%, 100% 0%, 100% 100%, 71% 100%, 0 84%);
+  color: #ffff;
+  font-size: 18px;
+  font-weight: bold;
+  writing-mode: vertical-lr;
+  letter-spacing: 3px;
+  padding: 24px 5px;
+  box-sizing: border-box;
+  position: absolute;
+  top: -8px;
+  left: -35px;
+}
+
+.mqV_4 .mqBar {
+  width: 48px;
+  height: 645px;
+  background: #ffff;
+  clip-path: polygon(80% 0, 100% 2%, 100% 100%, 20% 100%, 0 98%, 0% 0%);
+  padding: 0 13px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.mqV_4 .mqBar .textBox {
+  width: 48px;
+  height: 645px;
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 14px;
+}
+
+.mqV_4 .mqBar .textBox .content {
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  margin: 0;
+  animation: mqY_ani 15s linear 0s infinite;
+}
+
+.mqV_4 .mqBar .content span {
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  margin: 9px 5px;
+  letter-spacing: 4px;
+}
+
+.mqV_4 .downDeco {
+  width: 72px;
+  height: 669px;
+  background: linear-gradient(to top, #b01569 10%, #fe38a3 84%);
+  clip-path: polygon(
+    0% 0%,
+    83% 0%,
+    83% 68%,
+    100% 71%,
+    100% 100%,
+    22% 100%,
+    0 97%
+  );
+  position: absolute;
+  top: -8px;
+  left: -6px;
+  z-index: -1;
+}
+
+.mqV_4 .downDeco2 {
+  width: 16px;
+  height: 72px;
+  background: #b01569;
+  transform: rotate(46deg);
+  position: absolute;
+  bottom: 17px;
+  left: 21px;
+  z-index: 1;
+}
+
+/* 跑馬燈(直)5 */
+.mqV_5 {
+  width: 44px;
+  height: 670px;
+}
+.mqV_5 .mqBar {
+  width: 44px;
+  height: 580px;
+  background: #ffff;
+  border-radius: 50px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.mqV_5 .mqBar::before {
+  content: " ";
+  width: 55px;
+  height: 666px;
+  background: linear-gradient(to top, #eb1616 0%, #c40e0e 73%);
+  border-radius: 5px;
+  position: absolute;
+  top: -40px;
+  left: -5px;
+  z-index: -1;
+}
+
+.mqV_5 .mqBar::after {
+  content: "最新消息";
+  width: 55px;
+  height: 124px;
+  background: linear-gradient(to top, #eb1616 0%, #c40e0e 73%);
+  border-radius: 0 0 40px 40px;
+  color: #ffff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  writing-mode: vertical-lr;
+  padding: 14px;
+  box-sizing: border-box;
+  position: absolute;
+  top: -34px;
+  left: -5px;
+}
+
+.mqV_5 .mqBar .textBox {
+  width: 44px;
+  height: 491px;
+  border-radius: 50px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
+  top: 89px;
+  left: 1px;
+  z-index: 1;
+}
+
+.mqV_5 .mqBar .textBox .content {
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  margin: 0;
+  animation: mqY_ani 15s linear 0s infinite;
+}
+
+.mqV_5 .mqBar .textBox .content span {
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  margin: 9px 5px;
+  letter-spacing: 4px;
+}
+
+/* (3)卡片 */
+.cardArea .outer {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: space-between;
+  grid-auto-rows: 200px;
+  gap: 23px;
+  margin-bottom: 100px;
+}
+
+.outer .cardBox {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom, #fbf0e4 0%, #fff7e9 100%);
+  box-shadow: inset -1px -3px rgb(179, 125, 67, 20%);
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.outer .cardBox .num {
+  width: 57px;
+  height: 57px;
+  background: linear-gradient(to bottom, #ec380d 38%, #ffa71d 100%);
+  box-shadow: -1px 8px 8px -3px rgb(187 38 0 / 40%);
+  border-radius: 0 0 60px;
+  font-size: 25px;
+  color: #ffff;
+  font-weight: bold;
+  padding: 8px 17px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cardBox .country {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.cardBox .en {
+  font-size: 16px;
+  color: #fe7656;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px 0 0;
+}
+
+.cardBox .poiint {
+  font-size: 30px;
+  color: #ca2d07;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.cardBox .lastRecord {
+  font-size: 16px;
+  color: #646464;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+/* (3)卡片-2 */
+.cardArea .outer2 {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: space-between;
+  grid-auto-rows: 200px;
+  gap: 23px;
+  margin-bottom: 100px;
+}
+
+.cardArea .outer2 .cardBox {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to right, #f1f1f1 0%, #ffffff 68%);
+  box-shadow: 1px 1px 5px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.cardArea .outer2 .cardBox .deco1 {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #2f8b42;
+  border-radius: 5px;
+  position: absolute;
+  top: 6px;
+  left: 21px;
+}
+
+.cardArea .outer2 .cardBox .num {
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(to right, #0e5f1f 0%, #2f8b42 84%);
+  border-radius: 5px;
+  font-size: 25px;
+  color: #ffff;
+  font-weight: bold;
+  padding: 3px 14px;
+  box-sizing: border-box;
+  position: absolute;
+  top: -19px;
+  left: -8px;
+}
+
+.cardArea .outer2 .cardBox .num::before {
+  content: " ";
+  width: 19px;
+  height: 19px;
+  background: linear-gradient(to right, #0a4a17 14%, #0b6d20 74%);
+  border-radius: 5px;
+  position: absolute;
+  bottom: -8px;
+  right: 33px;
+}
+
+.cardArea .outer2 .cardBox .num::after {
+  content: " ";
+  width: 19px;
+  height: 19px;
+  background: linear-gradient(to right, #0e5f1f 0%, #2f8b42 84%);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 11px;
+  right: -27px;
+}
+
+.cardArea .outer2 .cardBox .country {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px 0 0;
+}
+
+.cardArea .outer2 .cardBox .en {
+  font-size: 16px;
+  color: #828282;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px 0 0;
+}
+
+.cardArea .outer2 .cardBox .poiint {
+  font-size: 30px;
+  color: #022cc5;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.cardArea .outer2 .cardBox .lastRecord {
+  font-size: 16px;
+  color: #646464;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.cardArea .outer2 .cardBox .deco2 {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #2f8b42;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 5px;
+  right: 7px;
+}
+
+.cardArea .outer2 .cardBox .deco2::before {
+  content: " ";
+  width: 23px;
+  height: 23px;
+  background: linear-gradient(to right, #0e5f1f 0%, #2f8b42 84%);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 18px;
+  bottom: 18px;
+  right: -18px;
+}
+
+.cardArea .outer2 .cardBox .deco2::after {
+  content: " ";
+  width: 19px;
+  height: 19px;
+  background: linear-gradient(to right, #0e5f1f 0%, #2f8b42 84%);
+  border-radius: 5px;
+  position: absolute;
+  bottom: -14px;
+  right: 5px;
+}
+
+/*(4)標準 (無圖標)*/
+.rankArea .rankBlock1 {
+  width: 100%;
+  height: auto;
+}
+
+.rankArea .rankBlock1 .line {
+  width: 100%;
+  height: 63px;
+  background: #dcedff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.rankBlock1 .line .num {
+  width: 63px;
+  height: 63px;
+  background: linear-gradient(to right, #3094f7 2%, #67b3ff 80%);
+  box-shadow: 2px 2px 4px rgb(9 67 154 / 30%);
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  border-radius: 0 30px 30px 0;
+  padding: 15px 24px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rankBlock1 .line .country {
+  font-size: 18px;
+  color: #000;
+  font-weight: bolder;
+  margin-left: 93px;
+}
+
+.rankBlock1 .line .country .en {
+  font-size: 13px;
+  color: #2a6dc8;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.rankBlock1 .rank {
+  width: 228px;
+  height: auto;
+  padding: 15px 10px;
+}
+.rankBlock1 .line .point {
+  font-size: 25px;
+  color: #fc1758;
+  font-weight: bold;
+  margin: 0;
+}
+
+.rankBlock1 .line .point .lastRecord {
+  font-size: 16px;
+  color: #646464;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+/*(4)標準 (無圖標2)*/
+.rankArea .rankBlock2 {
+  width: 100%;
+  height: auto;
+}
+
+.rankArea .rankBlock2 .rankLine {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+.rankArea .rankBlock2 .rankLine .deco1 {
+  width: 90px;
+  height: 60px;
+  background: linear-gradient(to right, #ff7022 0%, #ffc451 100%);
+  clip-path: polygon(57% 0%, 90% 50%, 57% 100%, 0% 100%, 0% 0%);
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 11px 23px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rankArea .rankBlock2 .rankLine .line {
+  width: 100%;
+  height: 60px;
+  background: #ffd060;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 16px 97px;
+  position: relative;
+}
+
+.rankArea .rankBlock2 .rankLine .line::before {
+  content: " ";
+  width: 0;
+  height: 0;
+  border: 30px solid #ffd060;
+  border-right: 30px solid #ffd060;
+  border-bottom-color: #ffd060;
+  border-left-color: transparent;
+  position: absolute;
+  top: 0;
+  left: -29px;
+}
+
+.rankArea .rankBlock2 .rankLine .line::after {
+  content: " ";
+  width: 0;
+  height: 0;
+  border: 30px solid #ffd060;
+  border-left: 30px solid #ffd060;
+  border-bottom-color: #ffd060;
+  border-right-color: transparent;
+  position: absolute;
+  top: 0;
+  right: -35px;
+}
+
+.rankArea .rankBlock2 .rankLine .line .country {
+  font-size: 18px;
+  color: #000;
+  font-weight: bolder;
+  margin-left: 55px;
+}
+
+.rankArea .rankBlock2 .rankLine .line .country .en {
+  font-size: 13px;
+  color: #2a6dc8;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.rankArea .rankBlock2 .rankLine .deco2 {
+  width: 174px;
+  height: 60px;
+  background: linear-gradient(to right, #ff7022 0%, #ffc451 100%);
+  clip-path: polygon(80% 0, 100% 100%, 20% 100%, 0 50%, 20% 0);
+  padding: 5px 29px;
+  box-sizing: border-box;
+  margin: 0 21px;
+}
+
+.rankArea .rankBlock2 .rankLine .deco2 .point {
+  color: #ffff;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.rankArea .rankBlock2 .rankLine .deco2 .lastRecord {
+  color: #ffec94;
+  font-size: 15px;
+  margin: 0;
+}
+
+/*(5)標準 (皇冠)*/
+.rank_crownArea .rankBlock .line {
+  width: 100%;
+  height: 63px;
+  background: linear-gradient(to top, #0c125b 0%, #172979 75%);
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 17px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  position: relative;
+}
+.rank_crownArea .rankBlock .line.other {
+  clip-path: polygon(2% 0, 0% 40%, 0% 98%, 98% 100%, 100% 60%, 100% 2%);
+}
+.rank_crownArea .rankBlock .line .ic {
+  width: 47px;
+  height: 40px;
+  background: url(./img/icon_crown.png) no-repeat;
+  position: absolute;
+  top: 11px;
+  left: 20px;
+}
+.rank_crownArea .rankBlock .line .ic.one {
+  background-position-x: 0%;
+}
+.rank_crownArea .rankBlock3 .line .ic.one::before {
+  content: "";
+  width: 23px;
+  height: 23px;
+  background: linear-gradient(45deg, #ffcf5d 39%, #d28b1b 61%, #ffcf5d 77%);
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+  position: absolute;
+  top: -11.5px;
+  left: -20px;
+}
+
+.rank_crownArea .rankBlock .line .ic.two {
+  background-position-x: 51%;
+}
+
+.rank_crownArea .rankBlock .line .ic.two::before {
+  content: "";
+  width: 23px;
+  height: 23px;
+  background: linear-gradient(45deg, #d7d7d7 35%, #6f6f6f 57%, #d7d7d7 76%);
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+  position: absolute;
+  top: -11.5px;
+  left: -20px;
+}
+
+.rank_crownArea .rankBlock .line .ic.three {
+  background-position-x: 103%;
+}
+
+.rank_crownArea .rankBlock .line .ic.three::before {
+  content: "";
+  width: 23px;
+  height: 23px;
+  background: linear-gradient(45deg, #d7997a 35%, #a55832 60%, #d7997a 76%);
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+  position: absolute;
+  top: -11.5px;
+  left: -20px;
+}
+
+.rank_crownArea .rankBlock .line .num {
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 0;
+  position: absolute;
+  top: 18px;
+  left: 38px;
+}
+
+.rank_crownArea .rankBlock .line .country {
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  color: #ffff;
+  font-weight: bolder;
+  margin: 0 0 0 93px;
+}
+
+.rank_crownArea .rankBlock .line .country .en {
+  font-size: 16px;
+  color: #ffff;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.rank_crownArea .rankBlock .line .rank {
+  width: 350px;
+  height: 30px;
+  display: flex;
+}
+
+.rank_crownArea .rankBlock .line .rank.one::after {
+  content: "";
+  width: 23px;
+  height: 23px;
+  background: linear-gradient(45deg, #ffcf5d 39%, #d28b1b 61%, #ffcf5d 77%);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  position: absolute;
+  bottom: -0.2px;
+  right: 0;
+}
+
+.rank_crownArea .rankBlock .line .rank.two::after {
+  content: "";
+  width: 23px;
+  height: 23px;
+  background: linear-gradient(45deg, #d7d7d7 35%, #6f6f6f 57%, #d7d7d7 76%);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  position: absolute;
+  bottom: -0.2px;
+  right: 0;
+}
+
+.rank_crownArea .rankBlock .line .rank.three::after {
+  content: "";
+  width: 23px;
+  height: 23px;
+  background: linear-gradient(45deg, #d7997a 35%, #a55832 60%, #d7997a 76%);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  position: absolute;
+  bottom: -0.2px;
+  right: 0;
+}
+
+.rank_crownArea .rankBlock  .line .rank .point {
+  font-size: 25px;
+  font-weight: bold;
+  color: #17fcbe;
+  margin: 0;
+}
+
+.rank_crownArea .rankBlock  .line .rank .point .lastRecord {
+  font-size: 16px;
+  color: #ffff;
+  margin: 0 0 10px 24px;
+}
+
+/*(6)標準 (獎牌)*/
+.rank_medalArea .rankBlock .lineBlock {
+  width: 97%;
+  height: 107px;
+  position: relative;
+}
+
+.rank_medalArea .rankBlock .lineBlock .numIC {
+  width: 78px;
+  height: 115px;
+  background: url(./img/icon_medal.png) no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rank_medalArea .rankBlock .lineBlock .numIC.one {
+  background-position-x: 0%;
+}
+.rank_medalArea .rankBlock .lineBlock .numIC.two {
+  background-position-x: 50%;
+}
+.rank_medalArea .rankBlock .lineBlock .numIC.three {
+  background-position-x: 100%;
+}
+
+.rank_medalArea .rankBlock .lineBlock .num {
+  width: 70px;
+  height: 80px;
+  background: url(./img/icon_medal45.png) no-repeat;
+  position: absolute;
+  top: 13px;
+  left: 5px;
+}
+
+.rank_medalArea .rankBlock .lineBlock .num.four {
+  background-position-x: 0%;
+}
+
+.rank_medalArea .rankBlock .lineBlock .num.five {
+  background-position-x: 100%;
+}
+
+.rank_medalArea .rankBlock .lineBlock .line {
+  width: 98%;
+  height: 63px;
+  background: linear-gradient(to right, #f2f2f2 0%, #f9f9f9 100%);
+  box-shadow: inset 2px 2px 2px -4px rgba(77, 77, 77, 3.5%);
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  position: absolute;
+  top: 21px;
+  left: 88px;
+}
+.rank_medalArea .rankBlock .lineBlock .line::before {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 26px 19px 0 ;
+  border-color: transparent #f2f2f2  transparent transparent;
+  position: absolute;
+  top: 0;
+  left: -13px;
+}
+.rank_medalArea .rankBlock .lineBlock .line::after {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 19px 26px;
+  border-color: transparent transparent #f2f2f2 transparent;
+  position: absolute;
+  bottom: 0;
+  left: -13px;
+}
+
+.rank_medalArea .rankBlock .lineBlock .line.one {
+  background: linear-gradient(to right, #ffbb38 0%, #ffd648 53%, #ffef82 100%);
+  position: relative;
+}
+.rank_medalArea .rankBlock .lineBlock .line.one::before {
+  border-color: transparent #ffbb38  transparent transparent;
+}
+.rank_medalArea .rankBlock .lineBlock .line.one::after {
+  border-color: transparent transparent #ffbb38 transparent;
+}
+.rank_medalArea .rankBlock .lineBlock .line.two {
+  background: linear-gradient(to right, #c3c9d2 0%, #dde2eb 70%);
+  position: relative;
+}
+.rank_medalArea .rankBlock .lineBlock .line.two::before {
+  border-color: transparent #c3c9d2  transparent transparent;
+}
+.rank_medalArea .rankBlock .lineBlock .line.two::after {
+  border-color: transparent transparent #c3c9d2 transparent;
+}
+.rank_medalArea .rankBlock .lineBlock .line.three {
+  background: linear-gradient(to right, #ec9f67 0%, #eaa06a 53%, #f9ceae 100%);
+}
+.rank_medalArea .rankBlock .lineBlock .line.three::before {
+  border-color: transparent #ec9f67  transparent transparent;
+}
+.rank_medalArea .rankBlock .lineBlock .line.three::after {
+  border-color: transparent transparent #ec9f67 transparent;
+}
+
+
+.rank_medalArea .rankBlock .lineBlock .country {
+  font-size: 20px;
+  color: #000;
+  font-weight: bolder;
+  margin: 14px 23px;
+}
+
+.rank_medalArea .rankBlock .lineBlock .country .en {
+  font-size: 16px;
+  color: #028f2b;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.rank_medalArea .rankBlock .lineBlock .country .en.gray {
+  color: #5a5a5a;
+}
+
+.rank_medalArea .rankBlock .lineBlock .rank {
+  width: 104px;
+  height: 40px;
+}
+
+.rank_medalArea .rankBlock .lineBlock .rank .point {
+  font-size: 22px;
+  color: #f20a0a;
+  font-weight: bold;
+  margin: 0;
+  text-align: end;
+}
+
+.rank_medalArea .rankBlock .lineBlock .rank .lastRecord {
+  font-size: 15px;
+  color: #646464;
+  font-weight: bold;
+  margin: 0;
+  text-align: end;
+}
